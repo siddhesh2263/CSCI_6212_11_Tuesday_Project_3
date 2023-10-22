@@ -3,6 +3,8 @@
 
 ### Notes on Project 3:
 
+* Source: https://www.youtube.com/watch?v=S49zeUjeUL0
+
 * Some observations for code, not very consistent:
 
 ```
@@ -14,5 +16,7 @@ e = 20, f = 100 | Time: 193.3445 | Min Attempts Req: 7
 e = 25, f = 125 | Time: 230.3827 | Min Attempts Req: 7
 e = 30, f = 150 | Time: 175.9811 | Min Attempts Req: 8
 ```
+
+* It seems we cannot try for too much big values, since it results in `RecursionError: maximum recursion depth exceeded in comparison` issue, for the above code. Maximum I tried was `e = 150`, `f = 750`.
 
 ---
